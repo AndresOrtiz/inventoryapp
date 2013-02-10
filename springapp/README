@@ -1,4 +1,4 @@
-Para desplegar el aplicativo de una forma manual se puede encontrar el “springapp.war” en la carpeta target, o también una vez descargado ubicándose por consola en la carpeta springapp se corre el comando:
+Para desplegar el aplicativo de una forma manual se puede encontrar el “springapp.war” en la carpeta target, o también una vez descargado, instalar maven 2 y ubicándose por consola en la carpeta springapp se corre el comando:
 
 mvn tomcat:run
 
@@ -10,4 +10,5 @@ Es importante aclarar que para que funcione antes de desplegarse se debe tener i
 
 http://docs.mongodb.org/manual/installation/
 
-El aplicativo fue probado y corrido en Apache Tomcat v6
+El aplicativo fue probado y corrido en apache tomcat v6
+
