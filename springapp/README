@@ -1,0 +1,13 @@
+Para desplegar el aplicativo de una forma manual se puede encontrar el “springapp.war” en la carpeta target, o también una vez descargado ubicándose por consola en la carpeta springapp se corre el comando:
+
+mvn tomcat:run
+
+y después se puede acceder entrando a la URL:
+
+http://localhost:8080/springapp/hello.htm
+
+Es importante aclarar que para que funcione antes de desplegarse se debe tener instalado y corriendo el MongoDB como se muestra en el siguiente enlace:
+
+http://docs.mongodb.org/manual/installation/
+
+El aplicativo fue probado y corrido en Apache Tomcat v6
